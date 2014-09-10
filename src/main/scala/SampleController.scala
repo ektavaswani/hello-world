@@ -3,7 +3,6 @@ import org.springframework.boot.autoconfigure._
 import org.springframework.stereotype._
 import org.springframework.web.bind.annotation._
 import SampleController._
-//remove if not needed
 import scala.collection.JavaConversions._
 
 object SampleController {
@@ -19,5 +18,5 @@ class SampleController {
 
   @RequestMapping(Array("/"))
   @ResponseBody
-  def home(): String = "Hello User!"
+  def home(): String = "Hello World !!”
 }
